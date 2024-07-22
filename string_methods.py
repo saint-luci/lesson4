@@ -1,0 +1,7 @@
+my_string = input("Enter your string: ")
+print("Len of this string:", len(my_string))
+print("In upper register:", my_string.upper())
+print("In lower register:", my_string.lower())
+print("Without spaces:", my_string.replace(" ", ""))
+print("First symbol:", my_string[0])
+print("Last symbol:", my_string[-1])
